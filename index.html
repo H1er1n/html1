@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>                         
+<head>
+        <meta charset="utf-8">
+        <title>Learn.html</title>
+        body{margin: 0;
+    animation-duration: 3s; animation-name: slidein}            
+    @keyframes slidein{
+      from{margin-left: 100%;
+           width: 300%;}
+       to{margin-left: 0%;
+          width: 100%;}
+    }
+@media (min-width:768px) and (max-width:2000px) {
+                body {background-color: #fff8dc;
+                color: black;
+                line-height: 1.4;}
+            }
+ @media (max-width:757px) {
+               body {background-color: #77dde7;
+                color: darkred;
+                line-height: 1.4;
+                font-size: 13px;}
+            }
+    }
+        <style>
+/*1*/
+#h1,h2,h3,h4,h5,h6{ text-align:center;
+                    font-family: monospace;
+                    font-size: large;}
+/*2*/
+#a{text-align:center;
+   font-family: cursive;
+   font-size: medium;
+   text-transform:capitalize;}
+#b {text-align:left;
+    font-family:fantasy;
+    font-size: large;}
+#c {text-align:right;
+    font-family: inherit;
+    font-size: small;}
+#d {text-align:justify;
+    font-family: monospace;
+    font-size:smaller;}
+#e {text-align:center;
+    font-family:sans-serif;
+    font-size:30px;
+    
+    -webkit-animation: e 1s linear infinite;
+     animation: e 1s linear infinite;}
+    @-webkit-keyframes e {
+      100% { color: rgba(34, 34, 34, 0); }}
+    @keyframes e {
+      100% { color: rgba(34, 34, 34, 0); }}
+
+/*3*/
+#f{text-align:center;
+  font-family: monospace;
+  font-size: large;       
+  background-color:DodgerBlue;
+   padding: 10px ;
+   border: 5px dashed #FFD700;
+   width: 400px;
+   height: 20px;
+   margin: 20px auto;} 
+
+
+
+/*4 Задание*/
+#h{
+ text-align:center;
+ font-family: monospace;}
+#l{ text-align:center;
+    font-size: large;
+    margin: auto;
+    font-family: monospace;
+    padding-top:30px;
+    padding-right:25px;
+    padding-bottom:30px;
+    padding-left:25px;
+    width: 950px;
+    height: 5px; 
+    background: #fc0; 
+    border: 10px solid #fff;
+    border-style:double;} 
+
+
+/*5*/    
+.block1 {
+        font-family: monospace;
+        text-align: center;
+        margin:auto;
+        width: 20em;}
+.w1{font-size: 20px;
+    list-style-type: '★';
+    transition: 1s;}
+.w1:hover {transform: scale(1.2);}
+.w2{font-size: 20px;
+    list-style-type: '☆';
+        transition: 1s;}
+.w2:hover {transform: scale(1.2);}
+.w3{font-size: 20px;
+    list-style-type: '✪';
+    transition: 1s;}
+.w3:hover {transform: scale(1.2);}
+.w4{font-size: 20px;
+    list-style-type: '✲';
+    transition: 1s;}
+.w4:hover {transform: scale(1.2);}
+.w5{font-size: 20px;
+    list-style-type: '⍟';
+        transition: 1s;}
+.w5:hover {transform: scale(1.2);}
+.w6{font-size: 20px;
+    list-style-type: '✫';
+   transition: 1s;
+}
+.w6:hover {transform: scale(1.2);}
+  
+/*6*/
+.yandex{background-color: #B0C4DE;
+        border: none;
+        color: white;
+        padding: 40px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 100px;
+        margin: 5px 5px;
+        border-radius: 12px;
+        font-family: monospace;}
+
+/*7*/
+.one{ opacity: 0.5;}
+a{display: inline-block;}
+a:hover img{opacity: 0;}
+img{transition: all .3s ease; }
+.pic1:hover{background-image: url("https://bugaga.ru/uploads/posts/2018-10/1538677684_osveschennye-ledniki-1.jpg");}
+.pic{transform: scale(-1, -1);}
+.pic1{background-size: cover;}
+
+
+/*8*/
+#bord{margin: auto;
+      text-align:center;
+      font-family: monospace;
+      font-size:large;
+      border:outset #B0C4DE; 
+      border-radius: 20px;
+      margin-bottom: 20px;
+border-width: 5px 10px 15px 3px;}
+    input[type=text]{ 
+    width: 90%;
+    border: outset;
+    padding: 10px;
+    border-radius: 14px;
+    margin:10px 0;
+    }
+    input[type=submit] {
+    margin:10px 0;
+    background-color: #B0C4DE;
+    color: white;
+    padding: 12px 20px;
+    border: outset;
+    border-radius: 100px;
+    cursor: pointer;
+    float: left;
+    }
+    input[type=submit]:hover {
+    background-color: #B0E0E6;
+        border-radius: 100px;
+    }
+#z{padding:20px;
+  width: 550px;
+  height: 10px;}
+/*9*/
+a.button1 {
+      position: relative;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      text-shadow: -1px -1px #000;
+      user-select: none;
+      font-family: monospace;
+      font-size: large;
+      padding: .8em 2em;
+      outline: none;
+      background-color: #000;
+      background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+      background-repeat: no-repeat;
+      background-size: 200% 100%, auto;
+      background-position: 200% 0, 0 0;
+      box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+    } 
+    a.button1:active {
+      top: 1px;
+      box-shadow: none;
+    }
+    a.button1:hover {
+      transition: .5s linear;
+      background-position: -200% 0, 0 0;
+    }
+
+ </style>
+
+
+</head>
+    
+<body>  
+    
+<section class="section_1" id="sect1">
+    <p style="color:Tomato;font-family: monospace;font-size: large;"><strong>Задание 1</strong></p>
+        <h1 style="text-align:center;font-family: monospace;"><font color="#008000">Отрывок</font>  из поэмы</h1>
+        <h2 style="color:Pink;text-align:center; font-family: monospace;"> Не жалею вязи дней прошедших,</h2>
+        <h3 style="color:LightSalmon;text-align:center; font-family: monospace;">Что прошло, то больше не придет.</h3>
+        <h4 style="color:OliveDrab;text-align:center; font-family: monospace;">И луна, как солнце сумасшедших,</h4>
+        <h5 style="color:PaleTurquoise;text-align:center; font-family: monospace;">Тихо ляжет в голубую водь…</h5>
+        <h6 style="color:Violet;text-align:center; font-family: monospace;">Сергей Есенин</h6><br>
+</section><br>
+    
+    
+<section class="section_2" id="sect2">
+        <p style="color:DodgerBlue;font-family: monospace;font-size: large;"><strong>Задание 2</strong></p>
+        <p id="a"><b>"She was more like a beauty queen from a movie scene</b></p> 
+        <p id="b"><i>I said don't mind,</i></p>
+        <p id="c"><u>But what do you mean I am the one</u></p>
+        <p id="d"><del>Who'll dance on the floor in the round</del></p>
+        <p id="e">She said I am the one who'll dance on the floor in the round"</p><br>
+</section><br>
+    
+    
+<section class="section_3" id="sect3">
+        <p style="color:MediumSeaGreen;font-family: monospace;font-size: large;"><strong>Задание 3</strong></p>    
+        <p id="f" style="color:White;">(a*b)<sup>m</sup>=a<sup>m</sup>*b<sup>m</sup></p><br>
+</section><br>
+    
+    
+<section class="section_4" id="sect4">
+       <style>
+           ol.hr li{margin: 0; /* Обнуляем значение отступов */
+                    padding: 4px; /* Значение полей */
+                    display: inline;
+                    margin-right: 100px;
+                    }
+           ol.hr li:hover{background-color: red;}
+       </style>     
+       <p style="color:MediumOrchid;font-family: monospace;font-size:large;"><strong>Задание 4</strong></p>  
+       <p id="h"><b>Выдающиеся личности 20 века</b></p> 
+       <ol class="hr" type="1" id="l" >
+       <li>Мао Цзэдун</li>
+       <li>Маргарет Тэтчер</li>
+       <li>Хо Ши Мин</li>
+       <li>Мартин Кинг</li> 
+       </ol>
+</section><br>
+    
+    
+<section class="section_5" id="sect5">
+    <p style="color:OrangeRed;font-family: monospace;font-size: large;"><strong>Задание 5</strong></p>
+       <p id="h"><b>Фильмы-победители Оскар за последние 6 лет</b></p>
+       <ul class ="block1">
+    <li class="w6">«В центре внимания»-2016</li>
+    <li class="w1" >«Лунный свет»-2017</li>
+    <li class="w2" >«Форма воды»-2018</li>
+    <li class="w3" >«Зелёная книга»-2019</li>
+    <li class="w4" >«Паразиты»-2020</li>
+    <li class="w5" >«Земля кочевников»-2021</li>    
+    </ul>
+    </section><br>
+    
+    
+<section class="section_6" id="sect6">
+  <p style="color:DarkOrange;font-family: monospace;font-size: large;"><strong>Задание 6</strong></p>
+        <a href = https://yandex.ru target="_blank"  class="yandex"><font color="#FF0000">Я</font>ндекс</a>
+</section>
+    
+<section class="section_7" id="sect7">
+     <p style="color:Crimson;font-family: monospace;font-size: large;"><strong>Задание 7</strong></p> 
+       <p style=" font-family: cursive;font-size: medium;">Вулкан, оригинал фотографии</p>
+            <img  src = "https://proprikol.ru/wp-content/uploads/2020/04/kartinki-vulkany-27.jpg" style="width:600px;height:460px;"><br>
+             <p style=" font-family: cursive;font-size: medium;">Вулкан, фотография с полупрозрачным эффектом</p>          
+            <img class="one"  src = "https://proprikol.ru/wp-content/uploads/2020/04/kartinki-vulkany-27.jpg" style="width:600px;height:460px;"><br>
+             <p style=" font-family: cursive;font-size: medium;">Фотографии, сменяющие друг друга при наведении</p>
+            <a class="pic1"><img  src = "https://m-chu.ru/wp-content/uploads/2019/03/378920_main.jpg" style="width:600px;height:460px;"></a><br>
+             <p style=" font-family: cursive;font-size: medium;">Перевернутые фотографии</p>
+            <img src="https://get.wallhere.com/photo/1920x1080-px-clouds-lake-mountain-road-sky-1046203.jpg" style="width: width:600px;height:460px;"><br>
+            <img class="pic" src="https://get.wallhere.com/photo/1920x1080-px-clouds-lake-mountain-road-sky-1046203.jpg" style="width: width:600px;height:460px;"><br>
+</section><br>  
+    
+<section class="section_8" id="sect8">
+     <p style="color:ForestGreen;font-family: monospace;font-size: large;"><strong>Задание 8</strong></p> 
+<form action='email.php' >
+    <fieldset id="bord" style="background-color: #9370DB; width: 20%;">
+    <label> Name</label>
+    <input type='text' name='username' required>
+    <label> Phone</label>
+    <input type='text'  name='usernumber' required>
+    <label> Message</label>
+    <input type="text"   name='question' id="z" >
+    <input type="submit" class ="type-1" value="Send Message">
+    </fieldset>
+    </form>
+</section>
+    
+    
+<section class="section_9" id="sect9">
+    <p style="color:gold;font-family: monospace;font-size: large;"><strong>Задание 9</strong></p> 
+    <p id="h"> Расписание на числитель </p>
+    <style>
+    table, th, td {
+     font-family: monospace;    
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;}
+    </style>
+    <table>
+
+  <tr>
+    <th>Время</th>
+    <th>Понедельник</th>
+    <th>Вторник</th>
+    <th>Среда</th>
+    <th>Четверг</th>
+    <th>Пятница</th>
+  </tr>
+  <tr bgcolor="Gainsboro">
+    <td>8:30-10:00</td>
+    <td></td>
+    <td>Иностранный язык (пр.) Ким Е.О.<br>
+                    Д-703<br>
+                    1 подгруппа
+    </td>
+    <td>Объектно-ориентированное программирование (лаб.) Молчанова Е.И.<br>
+                    Д-505<br>
+                    2 подгруппа
+    <td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="#87CEFA">
+    <td>10:10-11:40</td>
+    <td></td>
+    <td>Вычислительная математика (лаб.) Миндеева С.В.<br>
+                    Г-307<br>
+                    1 подгруппа</td>
+    <td>Программирование (лаб.) Кармадонов В.Ю.<br>
+                    Д-505<br>
+                    2 подгруппа</td>
+    <td>Вычислительная математика (лек.) Миндеева С.В.<br>
+                    Г-207</td>
+    <td></td>
+  </tr>
+  <tr  bgcolor="Gainsboro">        
+    <td>12:10-13:40</td>
+    <td></td>
+    <td>Программирование (лаб.) Кармадонов В.Ю.<br>
+                    Д505<br>
+                    1 подгруппа</td>
+     <td>Общая физическая подготовка (пр.) Утяшева И.М.<br>
+                    СЗ 1 Чернш. 4</td>
+    <td>Математический анализ (лек.) Байкова Л.А.<br>
+                    Г212 </td>
+    <td>Программирование (лек.) Димов А.В.<br>
+                    Д417 </td>
+  </tr>
+  <tr bgcolor="#87CEFA">
+    <td>13:50-15:20</td>
+    <td>Объектно-ориентированное программирование (лаб.) Молчанова Е.И.<br>
+                    А-516<br>
+                    1 подгруппа </td>
+    <td>Программирование (лаб.) Кармадонов В.Ю.<br>
+                    Д-505<br>
+                    2 подгруппа</td>
+    <td>Программирование (лаб.) Кармадонов В.Ю.<br>
+                    Д-507<br>
+                    1 подгруппа</td>
+    <td>Математический анализ (пр.) Байкова Л.А.<br>
+                    Г-212</td>
+    <td>Объектно-ориентированное программирование (лек.) Молчанова Е.И.<br>
+                    А-518</td>
+  </tr>
+  <tr bgcolor="Gainsboro">
+    <td>15:30-17:00</td>
+    <td>Типы и структуры данных (лаб.) Фереферов Е.С.<br>
+                    Д-507</td>
+    <td>Вычислительная математика (пр.) Миндеева С.В.<br>
+                    Г-307<br>
+    <td></td>
+    <td>История (История России, Всеобщая история) (пр.) Афанасова Е.Н.<br>
+                    В-106</td>                                   
+    <td>Вычислительная математика (пр.) Миндеева С.В.<br>
+  </tr>
+  <tr bgcolor="#87CEFA">
+    <td>17:10-18:40</td>
+    <td>Типы и структуры данных (пр.) Фереферов Е.С.
+                    Д-518</td>
+    <td>Иностранный язык (пр.) Заболотняя Д.Ю.<br>
+                    Г-206<br>
+                    2 подгруппа </td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="Gainsboro">
+    <td>18:45-20:15</td>
+    <td>Типы и структруры данных (лаб.) Фереферов Е.С.<br>
+                    А-516<br>
+                    2 подгруппа</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+<br>        
+</table>
+ <p id="h"> Расписание на знаменатель </p><br>
+    <table>
+ <tr>
+    <th>Время</th>
+    <th>Понедельник</th>
+    <th>Вторник</th>
+    <th>Среда</th>
+    <th>Четверг</th>
+    <th>Пятница</th>
+    <th>Суббота</th>
+  </tr>        
+  <tr bgcolor="Gainsboro">
+    <td>8:30-10:00</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="#87CEFA">
+    <td>10:10-11:40</td>
+    <td>Общая физическая подготовка (пр.) Утяшева И.М.<br>
+                        СЗ 1 Чернш. 4<br></td>
+    <td></td>
+    <td>Иностранный язык (пр.) Заболотняя Д.Ю.<br>
+                        Д-718<br>
+                        2 подгруппа</td>
+    <td>Иностранный язык (пр.) Заболотняя Д.Ю.<br>
+                        Д-719<br>
+                        2 подгруппа </td>
+    <td>Иностранный язык (пр.) Ким Е.О.<br>
+                        Д-719<br>
+                        1 подгруппа</td>
+    <td></td>
+  </tr>
+  <tr bgcolor="Gainsboro">
+    <td>12:10-13:40</td>
+    <td>Программирование (лек.) Димов А.В.<br>
+                        Д-417</td>
+    <td>Программирование (лаб.) Кармадонов В.Ю.<br>
+                        Д-501<br>
+                        1 подгруппа</td>
+    <td>Объектно-ориентированное программирование (лаб.) Молчанова Е.И.<br>
+                        Д-501<br>
+                        2 подгруппа</td>
+    <td>История (История России, Всеобщая история) (лек.) Афанасова Е.Н.<br>
+                        Д-605</td>
+    <td>Иностранный язык (пр.) Ким Е.О.<br>
+                        Д-719<br>
+                        1 подгруппа</td>
+    <td>Математический анализ (лек.) Байкова Л.А.<br>
+                        Г-223</td>
+ </tr>
+ <tr bgcolor="#87CEFA">
+   <td>13:50-15:20</td>
+   <td>Типы и структуры данных (лек.) Фереферов Е.С.<br>
+                        Д-521</td>
+   <td>Программирование (лаб.) Кармадонов В.Ю.<br>
+                        Д-501<br>
+                        1 подгрупп</td>
+   <td>Объектно-ориентированное программирование (лек.) Молчанова Е.И.<br>
+                        Д-413</td>
+   <td>История (История России, Всеобщая история) (пр.) Афанасова Е.Н.<br>
+                        В-102</td>
+   <td>Программирование (лаб.) Кармадонов В.Ю.<br>
+                        Д-503<br>
+                        2 подгруппа</td>
+   <td>Математический анализ (пр.) Байкова Л.А.<br>
+                        Г-201</td>
+  </tr>
+  <tr bgcolor="Gainsboro">
+    <td>15:30-17:00</td>
+    <td>Типы и структуры данных (лаб.) Фереферов Е.С.<br>
+                        Д-501<br>
+                        2 подгруппа</td>
+    <td></td>
+    <td>Объектно-ориентированное программирование (лаб.) Молчанова Е.И.<br>
+                        Д-503<br>
+                        1 подгруппа</td>
+    <td></td>
+    <td>Программирование (лаб.) Кармадонов В.Ю.<br>
+                        Д-505<br>
+                        2 подгруппа</td>
+    <td></td>
+  </tr>
+  <tr bgcolor="#87CEFA">
+    <td>17:10-18:40</td>
+    <td></td>
+    <td></td>
+    <td>Типы и структуры данных (лаб.) Фереферов Е.С.<br>
+                        А-516<br>
+                        1 подгруппа </td>
+     <td></td>
+     <td></td>
+     <td></td>
+  </tr>
+</table>      
+</section><br> 
+    
+<section class="section_10" id="sect10">
+  <p style="color:RoyalBlue;font-family: monospace;font-size:large;"><strong>Задание 10</strong></p>   
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KiMtkJw-4gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <a href="#" class="button1"> Ссылка на видео</a>
+</section> 
+    
+    
+<section class="section_11" id="sect11"> 
+  <p style="color:MediumVioletRed;font-family: monospace;font-size:large;"><strong>Задание 11</strong></p> 
+        <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.ru/maps/org/federalnoye_gosudarstvennoye_byudzhetnoye_obrazovatelnoye_uchrezhdeniye_vysshego_obrazovaniya_irkutskiy_gosudarstvenny_universitet_putey_soobshcheniya/1156333008/?utm_medium=mapframe&utm_source=maps" 
+            style="color:#000000;font-size:12px;position:absolute;top:0px;">Федеральное государственное бюджетное образовательное учреждение высшего образования Иркутский государственный университет путей сообщения</a>
+            <a href="https://yandex.ru/maps/63/irkutsk/category/university_college/184106140/?utm_medium=mapframe&utm_source=maps" 
+            style="color:#eee;font-size:12px;position:absolute;top:14px;width=854px; height=480px;">ВУЗ в Иркутске</a>
+            <iframe src="https://yandex.ru/map-widget/v1/-/CCUBVNDo~A"  frameborder="1" allowfullscreen="true" style="position:relative; width=854px; height=480px;"></iframe>
+        </div>
+    </section>
+</body>
+</html>
